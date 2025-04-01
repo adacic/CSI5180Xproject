@@ -13,24 +13,25 @@ def send_message():
     user_message = v2t.getTextFromAudio()
     chat_window.insert(tk.END, "You: " + user_message + "\n")
     cbr = c2r.ChatbotResponse(mode)  # Create an instance of ChatbotResponse
-    bot_response = "Chatbot:" + cbr.generate_response(user_message,mode) + "\n"  # Pass user_message as an argument
+    bot_response = "Rick:" + cbr.generate_response(user_message,mode) + "\n"  # Pass user_message as an argument
     chat_window.insert(tk.END, bot_response)
-    chat_window.insert(tk.END, "ChatBot:Listen for the wake word...\n")  # Prompt to listen for the wake word again
+    chat_window.insert(tk.END, "Rick:Listen for the wake word...\n")  # Prompt to listen for the wake word again
     mode = cbr.c2s.mode  # Update the global mode variable
 
 # Function to listen for the wake word
 def listen_for_wake_word():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
-        chat_window.insert(tk.END, "ChatBot:Listen for the wake word...\n")  # Display initial message once
+        chat_window.insert(tk.END, "Rick:Listen for the wake word...\n")  # Display initial message once
         while True:
             try:
                 #print("Listening for wake word...")
                 audio = recognizer.listen(source)
                 wake_word = recognizer.recognize_google(audio).lower()
-                if "wake up" in wake_word:  # Replace "wake up" with your desired wake word
+                #print(f"Detected wake word: {wake_word}")  # Debugging output
+                if "hey rick" in wake_word:  # Replace "wake up" with your desired wake word
                     print("Wake word detected!")
-                    chat_window.insert(tk.END, "Chatbot:Wake word detected, please say a command\n")  # Display wake word detected message
+                    chat_window.insert(tk.END, "Reka:Wake word detected, please say a command\n")  # Display wake word detected message
                     send_message()
             except sr.UnknownValueError:
                 continue
@@ -40,7 +41,7 @@ def listen_for_wake_word():
 
 # Create the main window
 root = tk.Tk()
-root.title("Chatbot")
+root.title("Rick:Your Personal Music Assistant")
 
 # Create a scrolled text widget for the chat window
 chat_window = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=50, height=20)
