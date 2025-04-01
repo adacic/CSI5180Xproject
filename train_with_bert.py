@@ -65,21 +65,25 @@ else:
     data = load_data('chatbot_commands_intents.json')
     commands, intents = preprocess_data(data)
 
-    # Create Hugging Face dataset
-    train_dataset = Dataset.from_dict({'command': commands, 'intent': intents})
+    # Split the dataset into training and validation sets
+    train_data, val_data = train_test_split(data, test_size=0.2, random_state=42)
+    train_dataset = Dataset.from_dict({'command': [item['command'] for item in train_data], 'intent': [item['intent'] for item in train_data]})
+    val_dataset = Dataset.from_dict({'command': [item['command'] for item in val_data], 'intent': [item['intent'] for item in val_data]})
 
-    # Tokenize the dataset
+    # Tokenize the datasets
     tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
     def tokenize_function(examples):
         return tokenizer(examples['command'], padding="max_length", truncation=True)
 
     train_dataset = train_dataset.map(tokenize_function, batched=True)
+    val_dataset = val_dataset.map(tokenize_function, batched=True)
 
     # Encode the labels
     labels = list(set(intents))
     label2id = {label: i for i, label in enumerate(labels)}
     id2label = {i: label for label, i in label2id.items()}
     train_dataset = train_dataset.map(lambda x: {'label': label2id[x['intent']]})
+    val_dataset = val_dataset.map(lambda x: {'label': label2id[x['intent']]})
 
     # Load pre-trained RoBERTa model
     model = RobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=len(labels))
@@ -92,7 +96,7 @@ else:
         warmup_steps=200,  # Reduced warmup steps from 300 to 200
         weight_decay=0.01,
         logging_dir='./logs',
-        evaluation_strategy="steps",  # Evaluate every few steps
+        eval_strategy="steps",  # Updated from evaluation_strategy to eval_strategy
         eval_steps=50,  # Evaluate every 50 steps for more frequent feedback
         learning_rate=3e-5,  # Reduced learning rate from 5e-5 to 3e-5
         save_steps=500,  # Save model every 500 steps
@@ -112,6 +116,7 @@ else:
         model=model,
         args=training_args,
         train_dataset=train_dataset,
+        eval_dataset=val_dataset,  # Pass validation dataset
         compute_metrics=compute_metrics
     )
 
