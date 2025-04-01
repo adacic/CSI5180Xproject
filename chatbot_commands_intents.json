@@ -1,0 +1,638 @@
+[
+    {
+        "command": "Switch to title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the next song",
+        "intent": "skip"
+    },
+    {
+        "command": "Halt the track",
+        "intent": "pause"
+    },
+    {
+        "command": "Stop playing",
+        "intent": "pause"
+    },
+    {
+        "command": "Next song",
+        "intent": "skip"
+    },
+    {
+        "command": "Change to lyric mode",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Stop the song",
+        "intent": "pause"
+    },
+    {
+        "command": "Activate lyric mode",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Pause the music",
+        "intent": "pause"
+    },
+    {
+        "command": "Hey chatbot can you play Believer by Imagine Dragons?",
+        "intent": "play"
+    },
+    {
+        "command": "Next track",
+        "intent": "skip"
+    },
+    {
+        "command": "Show lyric mode",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Title mode on",
+        "intent": "title mode"
+    },
+    {
+        "command": "Start playing music",
+        "intent": "play"
+    },
+    {
+        "command": "Play a track",
+        "intent": "play"
+    },
+    {
+        "command": "Start the song",
+        "intent": "play"
+    },
+    {
+        "command": "Skip this song",
+        "intent": "skip"
+    },
+    {
+        "command": "Show title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Activate title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play some music",
+        "intent": "play"
+    },
+    {
+        "command": "Lyric mode on",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Play the song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the track",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip forward",
+        "intent": "skip"
+    },
+    {
+        "command": "Show me the lyrics",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Enable title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play my favorite song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the audio",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next track",
+        "intent": "skip"
+    },
+    {
+        "command": "Display the lyrics",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Switch to title display",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the latest hit",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the current song",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip this track",
+        "intent": "skip"
+    },
+    {
+        "command": "Activate lyrics view",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Turn on title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play some relaxing music",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the playback",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next song",
+        "intent": "skip"
+    },
+    {
+        "command": "Show lyrics for this song",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Enable the title display",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play a random song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the music player",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip ahead",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics screen",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Switch to title screen",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the next album",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the current playback",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip this part",
+        "intent": "skip"
+    },
+    {
+        "command": "Activate lyric mode",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Turn on the title view",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the queued song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the audio track",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next playlist",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics of the track",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Enable the title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the most popular song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the current audio",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next queue",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics view",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Switch to the title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the recommended track",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the song playback",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next album",
+        "intent": "skip"
+    },
+    {
+        "command": "Display the lyrics for this song",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Enable the title screen",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the trending song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the current track",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next audio",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics for the current song",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Switch to the title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the most liked song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the music playback",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next queue item",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics for the current track",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Enable the title view mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the most streamed song",
+        "intent": "play"
+    },
+    {
+        "command": "switch to title mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Pause the current playlist",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next item",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics for the current playback",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Switch to the title view mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "Play the most downloaded song",
+        "intent": "play"
+    },
+    {
+        "command": "Pause the current queue",
+        "intent": "pause"
+    },
+    {
+        "command": "Skip to the next audio track",
+        "intent": "skip"
+    },
+    {
+        "command": "Show the lyrics for the current audio",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "Enable the title display mode",
+        "intent": "title mode"
+    },
+    {
+        "command": "play swift descent",
+        "intent": "play"
+    },
+    {
+        "command": "play nobody but you",
+        "intent": "play"
+    },
+    {
+        "command": "play boss battle",
+        "intent": "play"
+    },
+    {
+        "command": "play the song oath",
+        "intent": "play"
+    },
+    {
+        "command": "play the song one sweet evening",
+        "intent": "play"
+    },
+    {
+        "command": "please play bronze",
+        "intent": "play"
+    },
+    {
+        "command": "switch to lyric mode",
+        "intent": "lyric mode"
+    },
+    {
+        "command": "please pause the music",
+        "intent": "pause"
+    },
+    {
+        "command": "don't play the song",
+        "intent": "pause"
+    },
+    {
+        "command": "please give me castle door",
+        "intent": "play"
+    },
+    {
+        "command": "play death cry",
+        "intent": "play"
+    },
+    {
+        "command": "begin playing thats life",
+        "intent": "play"
+    },
+    {
+        "command": "stop stop stop",
+        "intent": "pause"
+    },
+    {
+        "command": "turn off the music",
+        "intent": "pause"
+    },
+    {
+        "command": "I hate this song",
+        "intent": "skip"
+    },
+    {
+        "command": "play babylon",
+        "intent": "play"
+    },
+    {
+        "command": "I want to hear the song cry out",
+        "intent": "play"
+    },
+    {
+        "command": "stop playing",
+        "intent": "pause"
+    },
+    {
+        "command": "start dad rock",
+        "intent": "play"
+    },
+    {
+        "command": "Can you play blinding lights",
+        "intent": "play"
+    },
+    {
+        "command": "Turn on hotel california",
+        "intent": "play"
+    },
+    {
+        "command": "hit play on despacito",
+        "intent": "play"
+    },
+    {
+        "command": "begin thinking out loud",
+        "intent": "play"
+    },
+    {
+        "command": "forward",
+        "intent": "skip"
+    },
+    {
+        "command": "pause this please",
+        "intent": "pause"
+    },
+    {
+        "command": "play the track bad romance",
+        "intent": "play"
+    },
+    {
+        "command": "stop for now",
+        "intent": "pause"
+    },
+    {
+        "command": "can we skip this track",
+        "intent": "skip"
+    },
+    {
+        "command": "pause that tune",
+        "intent": "pause"
+    },
+    {
+        "command": "put on wide awake",
+        "intent": "play"
+    },
+    {
+        "command": "move on to the next one",
+        "intent": "skip"
+    },
+    {
+        "command": "freeze the track",
+        "intent": "pause"
+    },
+    {
+        "command": "change the song",
+        "intent": "skip"
+    },
+    {
+        "command": "begin wonderwall by oasis",
+        "intent": "play"
+    },
+    {
+        "command": "can you move on",
+        "intent": "skip"
+    },
+    {
+        "command": "can you play wake me up",
+        "intent": "play"
+    },
+    {
+        "command": "pause for a moment",
+        "intent": "pause"
+    },
+    {
+        "command": "next song please",
+        "intent": "skip"
+    },
+    {
+        "command": "pause it now",
+        "intent": "pause"
+    },
+    {
+        "command": "start the song memories",
+        "intent": "play"
+    },
+    {
+        "command": "stop the music for a second",
+        "intent": "pause"
+    },
+    {
+        "command": "start the song forever",
+        "intent": "play"
+    },
+    {
+        "command": "hey can you play the song forever after",
+        "intent": "play"
+    },
+    {
+        "command": "put a hold on the music",
+        "intent": "pause"
+    },
+    {
+        "command": "hit pause",
+        "intent": "pause"
+    },
+    {
+        "command": "play begin the begine",
+        "intent": "play"
+    },
+    {
+        "command": "no more",
+        "intent": "pause"
+    },
+    {
+        "command": "play evermore",
+        "intent": "play"
+    },
+    {
+        "command": "begin thinking out loud",
+        "intent": "play"
+    },
+    {
+        "command": "skip to the next track",
+        "intent": "skip"
+    },
+    {
+        "command": "please play thhe song birth right",
+        "intent": "play"
+    },
+    {
+        "command": "pause the music please",
+        "intent": "pause"
+    },
+    {
+        "command": "play the song bad guy",
+        "intent": "play"
+    },
+    {
+        "command": "can you play that song thunderstruck by acdc",
+        "intent": "play"
+    },
+    {
+        "command": "play roar by katy perry",
+        "intent": "play"
+    },
+    {
+        "command": "no not this song",
+        "intent": "skip"
+    },
+    {
+        "command": "skip to the next song",
+        "intent": "skip"
+    },
+    {
+        "command": "hold on",
+        "intent": "pause"
+    },
+    {
+        "command": "start playing let it be by the beatles",
+        "intent": "play"
+    },
+    {
+        "command": "stop this song",
+        "intent": "pause"
+    },
+    {
+        "command": "hold",
+        "intent": "pause"
+    },
+    {
+        "command": "pause for a second",
+        "intent": "pause"
+    },
+    {
+        "command": "play uptown funk",
+        "intent": "play"
+    },
+    {
+        "command": "start the song smooth by santana",
+        "intent": "play"
+    },
+    {
+        "command": "I want to hear imagine by john lenon",
+        "intent": "play"
+    },
+    {
+        "command": "i would like to skip this song",
+        "intent": "skip"
+    },
+    {
+        "command": "skip forward and play the next track",
+        "intent": "skip"
+    },
+    {
+        "command": "skip to next song",
+        "intent": "skip"
+    },
+    {
+        "command": "please play the song all of me by john legend",
+        "intent": "play"
+    },
+    {
+        "command": "please play the next song",
+        "intent": "skip"
+    },
+    {
+        "command": "stop the song",
+        "intent": "pause"
+    },
+    {
+        "command": "can you play the track take five",
+        "intent": "play"
+    }
+]
