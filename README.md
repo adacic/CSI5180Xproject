@@ -12,6 +12,18 @@ please edit the app_config.json
 
 To open the app
 
-Currently please type command "python user_interface.py" on command prompt, if you find you do not have any thing downloaded, please use pip install xxx.
+Currently please type command 
+```sh
+python user_interface.py
+``` 
+on command prompt. 
 
-The first time will train the model, and it will open longer. If it is not working, just close the chatbot and open again by typing into command "python user_interface.py".
+Please make sure you have downloaded everything on command prompt or anaconda(what ever which one you like
+```sh
+pip install torch spotipy transformers datasets SpeechRecognition spotipy tk pyaudio
+``` 
+
+The first time will train the model, and it will open longer. If it is not working, just close the chatbot and open again by typing into command 
+```sh
+python user_interface.py
+``` .
