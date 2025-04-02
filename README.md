@@ -26,4 +26,4 @@ pip install torch spotipy transformers datasets SpeechRecognition spotipy tk pya
 The first time will train the model, and it will open longer. If it is not working, just close the chatbot and open again by typing into command 
 ```sh
 python user_interface.py
-``` .
+``` 
