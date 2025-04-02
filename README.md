@@ -23,7 +23,7 @@ Please make sure you have downloaded everything on command prompt or anaconda(wh
 pip install torch spotipy transformers datasets SpeechRecognition spotipy tk pyaudio
 ``` 
 
-The first time will train the model, and it will open longer. If it is not working, just close the chatbot and open again by typing into command 
+The first time will train the model, and it will open longer(12-20 minutes). If it is not working, just close the chatbot and open again by typing into command 
 ```sh
 python user_interface.py
 ``` 
