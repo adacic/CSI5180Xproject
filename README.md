@@ -20,7 +20,7 @@ on command prompt.
 
 Please make sure you have downloaded everything on command prompt or anaconda(what ever which one you like
 ```sh
-pip install torch spotipy transformers datasets SpeechRecognition spotipy tk pyaudio
+pip install torch spotipy transformers datasets SpeechRecognition spotipy tk pyaudio scikit-learn accelerate
 ``` 
 
 The first time will train the model, and it will open longer(12-20 minutes). If it is not working, just close the chatbot and open again by typing into command 
